@@ -1,0 +1,57 @@
+body, html{
+	margin: 0;
+	font:16px "Lato", sans-serif;
+	color:#777;
+	height: 100%;
+	border: 1px solid;
+}
+
+
+
+.conteudo{
+	color: #777;
+	background-color: white;
+	text-align: justify;
+	padding:50px  80px;
+	text-align: center;
+
+ }
+
+ h3{
+ 	text-transform: uppercase;
+ 	color: #111;
+ 	text-align: center;
+ }
+ 
+ p{
+ 	margin-bottom: 20px;
+ }
+ /*/ EFEITO PARALLAX/*/
+ .caixa1 ,.caixa2 ,.caixa3,.caixa4{
+ 	border: 1px solid red;
+ 	height: 100%;
+ 	background-repeat: no-repeat;
+ 	background-size: cover; /*/ DPOIS DE  PEDIER PARA A IMAGEM NAO REPETIR APLIACSE- BACKGROUND0SIZE:COVER/*/
+ 	background-position: center; /*/ para posisionar uma imagem em background utiliza se background-position: center/*/
+ 	background-attachment: fixed;
+
+ }
+ .caixa1{
+ 	background-image: url(imagens/imagem1.jpg);
+
+
+ }
+ .caixa2{
+ 	background-image: url(imagens/imagem2.jpg);
+
+ }
+.caixa3{
+ 	background-image: url(imagens/imagem3.jpg);
+
+ }
+.caixa4{
+ 	background-image: url(imagens/imagem4.jpg);
+
+ }
+
+ 
